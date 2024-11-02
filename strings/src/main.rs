@@ -1,3 +1,5 @@
 fn main() {
-    println!("Hello, world!");
+    for b in "नमस्ते".bytes() {
+    println!("{}", b);
+}
 }
